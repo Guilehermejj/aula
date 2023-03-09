@@ -12,10 +12,10 @@
         android:theme="@style/Theme.Aula"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity2"
+            android:name=".Calc1"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".TelaInicial"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

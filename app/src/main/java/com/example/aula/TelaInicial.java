@@ -7,18 +7,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class TelaInicial extends AppCompatActivity {
     Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.telainicial_main);
 
-        button=findViewById(R.id.filhobutton);
+        button=findViewById(R.id.calc1button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(MainActivity.this, MainActivity2.class);
+                Intent in = new Intent(TelaInicial.this, Calc1.class);
                 startActivity(in);
 
             }
