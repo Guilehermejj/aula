@@ -19,7 +19,7 @@ public class TelaInicial extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent in = new Intent(TelaInicial.this, Calc1.class);
-                startActivity(in);
+                startActivity(in); //ir para a calculadora simples
 
             }
         });
