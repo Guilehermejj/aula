@@ -10,17 +10,16 @@
         android:id="@+id/voltarbt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="4dp"
         android:text="Voltar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.131"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btndivi" />
 
     <EditText
         android:id="@+id/txt1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="187dp"
+        android:layout_height="43dp"
         android:layout_marginStart="84dp"
         android:layout_marginTop="40dp"
         android:ems="10"
@@ -30,9 +29,9 @@
 
     <EditText
         android:id="@+id/txt2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
+        android:layout_width="184dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="84dp"
         android:layout_marginTop="48dp"
         android:ems="10"
         android:inputType="number"
@@ -43,8 +42,8 @@
         android:id="@+id/btnmenos"
         android:layout_width="190dp"
         android:layout_height="47dp"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="24dp"
         android:text="subtrair"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnsomar" />
@@ -53,8 +52,8 @@
         android:id="@+id/btnmulti"
         android:layout_width="177dp"
         android:layout_height="48dp"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="20dp"
         android:text="multiplicar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnmenos" />
@@ -63,8 +62,8 @@
         android:id="@+id/btndivi"
         android:layout_width="163dp"
         android:layout_height="42dp"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="12dp"
         android:text="Dividir"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnmulti" />
@@ -73,7 +72,7 @@
         android:id="@+id/btnsomar"
         android:layout_width="187dp"
         android:layout_height="46dp"
-        android:layout_marginStart="104dp"
+        android:layout_marginStart="88dp"
         android:layout_marginTop="40dp"
         android:text="Somar"
         app:layout_constraintStart_toStartOf="parent"
@@ -81,10 +80,10 @@
 
     <TextView
         android:id="@+id/txt3"
-        android:layout_width="242dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="36dp"
+        android:layout_width="211dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt2" />
 
